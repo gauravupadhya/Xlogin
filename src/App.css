@@ -1,0 +1,90 @@
+/* Full-page styling */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f9;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the header at the top */
+.login-header {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px 0;
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the form below the header */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+/* Style the login form */
+.login-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+/* Style the labels */
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Style the input fields */
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Add placeholder styling */
+.login-form input::placeholder {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Style the submit button */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the message */
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.message {
+  color: red;
+}
